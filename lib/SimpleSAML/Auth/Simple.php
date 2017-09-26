@@ -139,7 +139,6 @@ class SimpleSAML_Auth_Simple {
 
 		$as = $this->getAuthSource();
 		$as->initLogin($returnTo, $errorURL, $params);
-		assert('FALSE');
 	}
 
 

@@ -185,8 +185,6 @@ class HTTP
         echo "  </body>\n";
         echo '</html>';
 
-        // end script execution
-        exit;
     }
 
 
@@ -1088,6 +1086,5 @@ class HTTP
         $p->data['destination'] = $destination;
         $p->data['post'] = $data;
         $p->show();
-        exit(0);
     }
 }

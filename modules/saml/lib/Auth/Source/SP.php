@@ -388,7 +388,6 @@ class sspmod_saml_Auth_Source_SP extends SimpleSAML_Auth_Source {
 		}
 
 		$this->startSSO($idp, $state);
-		assert('FALSE');
 	}
 
 
@@ -492,7 +491,6 @@ class sspmod_saml_Auth_Source_SP extends SimpleSAML_Auth_Source {
 		$b = SAML2_Binding::getBinding($endpoint['Binding']);
 		$b->send($lr);
 
-		assert('FALSE');
 	}
 
 
